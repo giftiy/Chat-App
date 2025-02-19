@@ -1,0 +1,19 @@
+.login{
+    min-height: 100vh;
+    background: url(./background.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.login .logo{
+    width: max(20vw,200px);
+}
+.login-form{
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
