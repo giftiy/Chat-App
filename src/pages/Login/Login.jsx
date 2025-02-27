@@ -8,10 +8,10 @@ const Login = () => {
         <form className='login-form'>
             <h2>Sign Up</h2>
             <input type="text" placeholder='username' className='form-input' required />
-            <input type="Email" placeholder='Email address' className='form-input'/>
-            <input type="password" placeholder='password' className='form-input'/>
+            <input type="Email" placeholder='Email address' className='form-input' required/>
+            <input type="password" placeholder='password' className='form-input' required/>
             <button type='submit'>Sign Up</button>
-            <div className='lodin-term'>
+            <div className='login-term'>
                 <input type="checkbox" />
                 <p>Agree to the term of use & private policy</p>
             </div>
