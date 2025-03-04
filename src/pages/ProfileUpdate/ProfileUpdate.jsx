@@ -1,11 +1,13 @@
-import React from 'react'
-import './ProfileUpdate.css'
+import React from 'react';
+import './ProfileUpdate.css'; // Ensure this path is correct
+
 const ProfileUpdate = () => {
   return (
     <div>
-      we are on the profile page
-    </div>
-  )
-}
 
-export default ProfileUpdate
+
+    </div>
+  );
+};
+
+export default ProfileUpdate;
