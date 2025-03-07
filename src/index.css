@@ -5,3 +5,9 @@
   box-sizing: border-box;
   font-family: Poppins;
 }
+::-webkit-scrollbar{
+  display: none;
+}
+img.dot{
+  width: 15px !important;
+}

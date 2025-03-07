@@ -1,0 +1,29 @@
+.chat-bot{
+    height: 75vh;
+    position: relative;
+    background-color: #f1f5ff;
+}
+.chat-user{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #c6c6c6;
+}
+.chat-user img{
+    width: 25px;
+    border-radius: 50%;
+}
+.chat-user img:first-child{
+    width: 38px;
+    aspect-ratio: 1/1;
+}
+.chat-user p{
+    flex: 1;
+    font-weight: 500;
+    font-family: 20px;
+    color: #393939;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

@@ -10,5 +10,5 @@
     max-width: 1000px;
     background-color: aliceblue;
     display: grid;
-    grid-template-columns: 1fr 2fe 1fe;
+    grid-template-columns: 1fr 2fr 1fr;
 }
